@@ -1,0 +1,21 @@
+// Fazer autenticação
+POST {{BASE_URL}}/authenticate HTTP/1.1
+Content-Type: application/json
+
+{
+  "code": "{{CODE}}"
+}
+###
+GET {{BASE_URL}}/github HTTP/1.1
+Content-Type: application/json
+
+{}
+###
+POST {{BASE_URL}}/messages HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
+
+{
+  "message": "Estou ansioso pelo DoWhile"
+}
+###

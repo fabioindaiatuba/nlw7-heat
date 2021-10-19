@@ -1,0 +1,9 @@
+{
+  "rest-client.environmentVariables": {
+    "$shared": {
+      "BASE_URL": "http://localhost:4000",
+      "CODE": "fc4378daf6cdc05cf231",
+      "TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJGYWJpbyBHb27Dp2FsdmVzIiwiYXZhdGFyX3VybCI6Imh0dHBzOi8vYXZhdGFycy5naXRodWJ1c2VyY29udGVudC5jb20vdS8xMjU1MzE4Nj92PTQiLCJpZCI6ImRhNmJhMGM2LTQxYmYtNDRmNy05YWM5LTU3Y2QzZWU1OTNjOCJ9LCJpYXQiOjE2MzQ2NzM2OTMsImV4cCI6MTYzNDc2MDA5Mywic3ViIjoiZGE2YmEwYzYtNDFiZi00NGY3LTlhYzktNTdjZDNlZTU5M2M4In0.9afirhIp-CCQY9XZbQnpEF92MnAxKu7NVI8ZcI47kL4"
+    }
+  }
+}
