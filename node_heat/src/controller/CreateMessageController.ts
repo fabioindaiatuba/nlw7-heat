@@ -7,7 +7,6 @@ class CreateMessageController {
     const { user_id } = request;
     const service = new CreateMessageService();
     const result = await service.execute(message, user_id);
-
     return response.json(result);
   }
 }

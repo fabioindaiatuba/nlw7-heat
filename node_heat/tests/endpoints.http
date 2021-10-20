@@ -16,6 +16,14 @@ Content-Type: application/json
 Authorization: Bearer {{TOKEN}}
 
 {
-  "message": "Estou ansioso pelo DoWhile"
+  "message": "Estou muito ansioso pelo DoWhile"
 }
+###
+
+GET {{BASE_URL}}/messages/last3 HTTP/1.1
+###
+
+GET {{BASE_URL}}/profile HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer {{TOKEN}}
 ###
